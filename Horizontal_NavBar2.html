@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>NavBar Horizontal Two</title>
+		<meta charset="utf-8">
+		
+		<style type="text/css">
+			
+			*{
+				box-sizing: border-box;			
+			}			
+			
+			main {
+				padding: 30px;
+				margin-top: 70px;
+				height: 1500px; 			
+			}
+			
+			/*header*/
+			
+		   header {
+				position: fixed;
+				top: 0;
+				width: 100%;
+				z-index: 10;
+				background-color: whitesmoke;		   
+		   }
+		   
+		   #logo {
+				float: left;
+				display: inline-block;
+				margin-top: 5px;
+				margin-left: 5%;
+				width: 70px;
+				height: 70px;
+				background-color: red;
+				transition: 0.5s ease		   
+		   }
+		   
+		   header #logo img {
+				display: none;		   
+		   }					
+		   
+			nav {
+				position: relative;
+				height: 80px;
+				width: 100%;
+				transition: 0.5s ease;
+				border-bottom: 1px solid black;			
+			}
+			
+			#nav2 {
+				margin: 0;
+				padding: 10px 0;
+				display: inline-block;
+				float: right;
+				margin-right: 5%;			
+			}
+			
+			.item {
+				list-style-type: none;
+				display: inline-block;
+					
+					font-size: 18px;
+					padding: 5px;
+					font-weight: 300;
+					line-height: 50px;
+					margin-right: 20px;
+					transition: 0.5s ease;			
+			}
+			
+			#contact {
+				display: inline-block;
+				background-color: #FFF;
+				height: 40px;
+				line-height: 30px;
+				padding: 5px;
+				border-radius: 2px;
+				transition: 5s ease;			
+			}
+			
+			nav ul li a {
+				text-decoration: none;
+				color: inherit;			
+			}
+			
+			nav ul li a:hover {
+				background-color: blue;
+			}
+		   
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<header>
+					
+			<div id="logo"><img src="#" alt="logo"></div>
+						
+			<nav>
+				<ul id="nav2">
+					<li class="item"><a href="#" >Home</a></li>			
+					<li class="item"><a href="#" >News</a></li>
+					<li class="item" id="contact"><a href="#" >Contact</a></li>
+					<li class="item"><a href="#">About</a></li>				
+				</ul>							
+			</nav>
+								
+		</header>
+		
+		<main>
+			<h1>Fixed Full-height Top Nav</h1>
+			
+			<h2>Try to scroll this area, and see how the sidenav sticks to the page</h2>
+
+			<p>Some text..</p>
+
+			<p>Some text..</p>
+
+			<p>Some text..</p>
+
+			<p>Some text..</p>
+
+			<p>Some text..</p>
+
+			<p>Some text..</p>
+
+			<p>Some text..</p>
+
+			<p>Some text..</p>
+
+			<p>Some text..</p>		
+		</main>
+		
+	</body>	
