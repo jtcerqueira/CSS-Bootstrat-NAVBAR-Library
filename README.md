@@ -1,6 +1,6 @@
 # Explanations
 
-This repository is done in an intent to contain various libraries of navbars made in CSS, Bootstrap and others.
+This repository is done in an intent to build a library of navbars made in CSS, Bootstrap and others.
 The idea is to build a way and discuss the best approaches for as many situations as possible, counting with the 
 contribution of many expertises such as full stack developers, front-ends, Web Designers and others to present
 to the world easy to build, flexible and accurate ways to build navbars for a site.
